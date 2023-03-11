@@ -1,0 +1,32 @@
+.interface
+{
+    width: 1115px;
+    display: flex;
+    margin: auto;
+    height:490px;
+}
+.interface .col1{
+    width:218px;
+
+}
+.interface .col2{
+    width:525px;
+}
+.interface .col3{
+    width:372px;
+    display: flex;
+    flex: wrap;
+}
+.col2 .top{
+    height: 330px;
+}
+.col2 .bot{
+    height:150px;
+    display: flex;
+}
+.bot .half{
+    width:50%;
+}
+img{
+    width: 100%;
+}

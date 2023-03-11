@@ -1,0 +1,40 @@
+.layout{
+    width:820px;
+    height: 820px;
+    display: flex;
+    justify-content: space-between;
+}
+.bo{
+    width:200px;
+    height:200px;
+    position: relative;
+}
+.layer1{
+    width:100%;
+    height:100%;
+}
+.layer2{
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    top:0;left: 0;
+    transition: 0.4s;
+}
+.bo:hover .layer2{
+    opacity: 0.4;
+}
+.layer3{
+    color:white;
+    font-size: 50px;
+    position: absolute;
+    top:75px;left: 75px;
+    transition: 0.4s;
+    transform: scale(0);
+    opacity: 0;
+}
+.bo:hover .layer3{
+    opacity: 1;
+    transform: scale(2);
+}

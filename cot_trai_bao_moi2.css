@@ -1,0 +1,124 @@
+.menutren
+{
+    background-color: blueviolet;
+    height:30px;
+}
+ul.menungang{
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    width:900px;
+    display:flex;
+    text-decoration: none;
+}
+.menungang a{
+    font-size:16px;
+    font-family:segoe ui light;
+    text-transform:uppercase;
+    color:white;
+    display:block;
+    padding:6px;
+    text-decoration: none;
+}
+.menungang a:hover
+{
+    background-color: blue;
+    transition: 0.3s;
+    padding-top:3px;
+    padding-bottom: 6px;;
+}
+.cottrai{
+    margin-top: 15px;
+    font-family: segoe ui light;
+    font-size:14px;
+    width:500px;
+    margin-left: 200px;
+}
+.imgandtext img{
+    width:100%;
+}
+a.imgandtext{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+}
+.imgandtext h3{
+    margin: 0;
+    padding: 0;
+}
+.vietnamnet img{
+    width:10%;
+}
+a.imgandtext:hover{
+    color:grey;
+}
+span.time, a.lq,span.times{
+    margin-left:10px;
+    text-decoration: none;
+}
+.khoiduoi{
+    display:flex;
+    justify-content:space-between;
+}
+.img1 h3{
+    text-decoration: none;
+    color: black;
+}
+.img1 img{
+    width:100%;
+}
+
+.khoi1,.khoi2,.khoi3
+{
+    width:32%;
+}
+.vtcnews img
+{
+    width: 50%;
+}
+.interface{
+    display:flex;
+   
+}
+.cotphai
+{
+    display:flex;
+    margin-left: 10px;
+    width:400px;
+    height: 75px;
+    margin-top:15px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.cotphai .leftblock 
+{
+    width: 18%;
+}
+.leftblock img
+{
+    width: 100%;
+}
+.cotphai .rightblock 
+{
+    width:80%;
+}
+.rightblock .text
+{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    width:100%;
+    font-style: normal;
+    letter-spacing: normal;
+    font-stretch: normal;
+    display:block;
+}
+
+.rightblock .vn img{
+    width:20%;
+}
+.rightblock .LQ
+{
+    text-decoration: none;
+    color: grey;
+}

@@ -1,0 +1,11 @@
+.mine{
+    width:400px;
+    height:300px;
+}
+.mine img{
+    width:400px;
+    height:300px;
+}
+.mine .carousel-indicators{
+    display: none;
+}
